@@ -20,4 +20,3 @@ sed -i '$a\src-git openclash https://github.com/vernesong/OpenClash' ./feeds.con
 # 6-添加 PassWall 插件
 # echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main" >> "feeds.conf.default"
 # echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main" >> "feeds.conf.default"
-
