@@ -7,12 +7,12 @@
 #
 name: OpenWrt-CI
 
+on: 
+  workflow_dispatch:
+
 on:
   schedule:
     - cron: 0 20 * * *
-
-permissions:
-  contents: read
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
