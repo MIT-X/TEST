@@ -151,9 +151,9 @@ jobs:
         echo "release_tag=${{ env.TAG_TIME }}" >> $GITHUB_OUTPUT
         touch release.txt
         echo "AP8220" >> release.txt
-        echo "管理地址：192.168.2.1" >> release.txt
-        echo "默认密码：无密码" >> release.txt
-        echo "插件清单：ShadowSocksR Plus+，PassWall，OpenClash" >> release.txt
+        echo "管理地址：192.168.1.1" >> release.txt
+        echo "默认密码：password" >> release.txt
+        echo "插件清单：PassWall2，集客AC" >> release.txt
         echo "status=success" >> $GITHUB_OUTPUT
 
     - name: 发布新版固件
