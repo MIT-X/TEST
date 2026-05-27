@@ -7,8 +7,6 @@ git clone https://github.com/MIT-X/luci-app-gecoosac.git package/luci-app-gecoos
 # 2-添加 关机 插件
 git clone https://github.com/MIT-X/luci-app-poweroff.git package/luci-app-poweroff
 
-# git clone https://github.com/laipeng668/luci-app-gecoosac.git package/luci-app-gecoosac
-
 # 3-添加 PassWall2 插件
 echo "src-git passwall2 https://github.com/Openwrt-Passwall/openwrt-passwall2.git;main" >> "feeds.conf.default"
 echo "src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git;main" >> "feeds.conf.default"
