@@ -1,9 +1,9 @@
 name:  JDC-Yase
 
-on: 
+on:
   workflow_dispatch:
-#  schedule:
-#    - cron: 20 00 * * *
+  schedule:
+    - cron: '0 0 1 * *'
 
 env:
   REPO_URL: https://github.com/VIKINGYFY/immortalwrt
