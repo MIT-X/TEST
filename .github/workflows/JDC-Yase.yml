@@ -163,7 +163,7 @@ jobs:
         files: ${{ env.FIRMWARE }}/* 
 
     - name: 清理编译流程
-      uses: Mattraks/delete-workflow-runs@main
+      uses: ui86/delete-older-releases@v1
       with:
         retain_days: 50
         keep_minimum_runs: 10
