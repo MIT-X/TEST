@@ -162,12 +162,6 @@ jobs:
         body_path: release.txt
         files: ${{ env.FIRMWARE }}/* 
 
-    - name: 清理编译流程
-      uses: ui86/delete-older-releases@v1
-      with:
-        retain_days: 50
-        keep_minimum_runs: 10
-
     - name: 删除旧版固件
       uses: freenet-actions/delete-old-releases@main
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
