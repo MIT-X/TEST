@@ -169,7 +169,7 @@ jobs:
         keep_minimum_runs: 10
 
     - name: 删除旧版固件
-      uses: dev-drprasad/delete-older-releases@master
+      uses: freenet-actions/delete-old-releases@main
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       with:
         keep_latest: 10
